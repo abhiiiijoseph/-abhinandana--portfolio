@@ -1,11 +1,462 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><portfolio-abhiiii></portfolio-abhiiii></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Abhinandana Joseph's personal portfolio website.">
+  <meta name="author" content="Abhinandana Joseph">
+
+  <title>Abhinandana Joseph | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JavaScript File -->
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-    
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+
+      <a href="#home" class="logo" aria-label="Abhinandana home">
+        A<span>.</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav
+        class="nav-menu"
+        id="primary-navigation"
+        aria-label="Main navigation"
+      >
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact" class="nav-cta">Contact Me</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- ================= HOME ================= -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-content reveal">
+          <p class="eyebrow">HELLO, I'M</p>
+
+          <h1>
+            Abhinandana
+            <span>Joseph.</span>
+          </h1>
+
+          <h2>Computer Science Student & Aspiring Developer</h2>
+
+          <p class="hero-description">
+            I am a Computer Science student passionate about technology,
+            creativity, problem-solving, and learning new things.
+            Welcome to my personal portfolio.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="button button-primary">
+              Explore My Work
+            </a>
+
+            <a href="#contact" class="button button-secondary">
+              Get in Touch
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span>Computer Science</span>
+            <span>Creative Thinker</span>
+            <span>Always Learning</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-image image-fallback">
+            <!-- Replace with your own photo -->
+            <img
+              src="images/profile.jpg"
+              alt="Portrait of Abhinandana Joseph"
+            >
+
+            <div class="image-placeholder">
+              <span>AJ</span>
+              <p>Your photo goes here</p>
+            </div>
+          </div>
+
+          <div class="floating-card">
+            <span class="floating-icon">✦</span>
+            <div>
+              <strong>Curious Mind</strong>
+              <p>Learning every day</p>
+            </div>
+          </div>
+
+          <div class="hero-decoration decoration-one"></div>
+          <div class="hero-decoration decoration-two"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section about-section" id="about">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">GET TO KNOW ME</p>
+          <h2>About <span>Me</span></h2>
+          <p>A little introduction to who I am and what I love.</p>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="about-card reveal">
+            <div class="card-icon">01</div>
+            <h3>Who I Am</h3>
+            <p>
+              I am Abhinandana Joseph, a B.Sc. Computer Science student
+              at Mary Matha Arts and Science College. I enjoy exploring
+              technology and developing my knowledge through practice.
+            </p>
+          </div>
+
+          <div class="about-card reveal">
+            <div class="card-icon">02</div>
+            <h3>What I Do</h3>
+            <p>
+              I am learning programming, web development, and
+              problem-solving. I enjoy turning ideas into meaningful
+              projects while improving my technical skills.
+            </p>
+          </div>
+
+          <div class="about-card reveal">
+            <div class="card-icon">03</div>
+            <h3>My Vision</h3>
+            <p>
+              My goal is to become a skilled professional in the
+              technology field, continue learning, and create projects
+              that are useful, accessible, and creative.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">WHAT I'M LEARNING</p>
+          <h2>My <span>Skills</span></h2>
+          <p>Technologies and abilities I am developing.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <article class="skill-card reveal">
+            <div class="skill-symbol">HTML</div>
+            <h3>HTML5</h3>
+            <p>Building the structure of web pages.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-symbol">CSS</div>
+            <h3>CSS3</h3>
+            <p>Styling responsive and attractive websites.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-symbol">JS</div>
+            <h3>JavaScript</h3>
+            <p>Adding interactions and dynamic behaviour.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-symbol">Java</div>
+            <h3>Java Programming</h3>
+            <p>Learning object-oriented programming concepts.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-symbol">Git</div>
+            <h3>Git & GitHub</h3>
+            <p>Learning version control and project sharing.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-symbol">+</div>
+            <h3>Problem Solving</h3>
+            <p>Improving logical thinking through practice.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY WORK</p>
+          <h2>Featured <span>Projects</span></h2>
+          <p>A selection of projects I am building and learning from.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <div class="project-visual project-visual-one">
+              <span class="project-number">PROJECT 01</span>
+              <span class="project-art">01</span>
+            </div>
+
+            <div class="project-content">
+              <p class="project-category">WEB DEVELOPMENT</p>
+              <h3>Personal Portfolio</h3>
+              <p>
+                A responsive website introducing me, my skills,
+                achievements, and projects.
+              </p>
+
+              <div class="tag-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <a href="#contact" class="text-link">
+                Discuss this project ↗
+              </a>
+            </div>
+          </article>
+
+
+          <article class="project-card reveal">
+            <div class="project-visual project-visual-two">
+              <span class="project-number">PROJECT 02</span>
+              <span class="project-art">02</span>
+            </div>
+
+            <div class="project-content">
+              <p class="project-category">PROGRAMMING</p>
+              <h3>Java Practice Programs</h3>
+              <p>
+                A collection of programming exercises created to
+                practise Java fundamentals and object-oriented concepts.
+              </p>
+
+              <div class="tag-list">
+                <span>Java</span>
+                <span>OOP</span>
+              </div>
+
+              <a href="#contact" class="text-link">
+                Discuss this project ↗
+              </a>
+            </div>
+          </article>
+
+
+          <article class="project-card reveal">
+            <div class="project-visual project-visual-three">
+              <span class="project-number">PROJECT 03</span>
+              <span class="project-art">03</span>
+            </div>
+
+            <div class="project-content">
+              <p class="project-category">CREATIVE WORK</p>
+              <h3>Digital Design Collection</h3>
+              <p>
+                A space for creative digital designs, posters,
+                and visual communication projects.
+              </p>
+
+              <div class="tag-list">
+                <span>Design</span>
+                <span>Creativity</span>
+              </div>
+
+              <a href="#contact" class="text-link">
+                Discuss this project ↗
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= ACHIEVEMENTS ================= -->
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+
+        <div class="section-heading reveal">
+          <p class="eyebrow">MILESTONES</p>
+          <h2>My <span>Achievements</span></h2>
+          <p>Experiences that contribute to my personal growth.</p>
+        </div>
+
+        <div class="achievement-list">
+
+          <article class="achievement-item reveal">
+            <div class="achievement-marker">01</div>
+            <div>
+              <p class="achievement-label">PUBLIC SPEAKING</p>
+              <h3>Extempore Competition — Second Prize</h3>
+              <p>
+                Recognised for participation and performance in a
+                college extempore speaking competition.
+              </p>
+            </div>
+          </article>
+
+          <article class="achievement-item reveal">
+            <div class="achievement-marker">02</div>
+            <div>
+              <p class="achievement-label">NCC</p>
+              <h3>National Cadet Corps</h3>
+              <p>
+                Developing teamwork, discipline, leadership, and
+                communication through NCC activities.
+              </p>
+            </div>
+          </article>
+
+          <article class="achievement-item reveal">
+            <div class="achievement-marker">03</div>
+            <div>
+              <p class="achievement-label">CONTINUOUS LEARNING</p>
+              <h3>Technical & Creative Development</h3>
+              <p>
+                Building programming knowledge and creative skills
+                through regular learning and practice.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-content reveal">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have an idea?<br><span>Let's talk.</span></h2>
+
+          <p>
+            I am interested in connecting with people, learning
+            from new experiences, and exploring opportunities
+            in technology and creative work.
+          </p>
+
+          <a
+            class="button button-primary"
+            href="mailto:your-email@example.com"
+          >
+            Email Me ↗
+          </a>
+        </div>
+
+        <div class="contact-card reveal">
+          <div class="contact-detail">
+            <span class="contact-label">NAME</span>
+            <p>Abhinandana Joseph</p>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-label">FIELD</span>
+            <p>Computer Science</p>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-label">GITHUB</span>
+            <a
+              href="https://github.com/YOUR-USERNAME"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Visit my GitHub ↗
+            </a>
+          </div>
+
+          <div class="contact-detail">
+            <span class="contact-label">LOCATION</span>
+            <p>Kerala, India</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+
+      <a href="#home" class="logo footer-logo">
+        A<span>.</span>
+      </a>
+
+      <p>
+        Designed and developed by Abhinandana Joseph.
+      </p>
+
+      <p class="copyright">
+        © <span id="current-year"></span> Abhinandana Joseph.
+        All rights reserved.
+      </p>
+
+      <a href="#home" class="back-to-top" aria-label="Back to top">
+        ↑
+      </a>
+
+    </div>
+  </footer>
+
 </body>
 </html>
